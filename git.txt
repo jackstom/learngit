@@ -49,4 +49,5 @@ Switched to branch 'dev'
 
 删除分支：git branch -d <name>
 
+多人协作时，大家都会往master和dev分支上推送各自的修改。
 
