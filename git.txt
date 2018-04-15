@@ -1,0 +1,28 @@
+$ mkdir learngit
+$ cd learngit
+$ git init
+$ git add readme.txt
+$ git commit -m "wrote a readme file"
+$ git status  /$ git diff？
+$ git log
+commit 9e845ca82219f974f46149db1f27f0f8e9da47d3 (HEAD -> master)
+Author: Qing <coohohye@gmail.com>
+Date:   Sun Apr 15 16:08:07 2018 -0400
+
+    add more
+首先，Git必须知道当前版本是哪个版本，在Git中，用HEAD表示当前版本，也就是最新的提交3628164...882e1e0（注意我的提交ID和你的肯定不一样），上一个版本就是HEAD^，上上一个版本就是HEAD^^，当然往上100个版本写100个^比较容易数不过来，所以写成HEAD~100。
+
+现在，我们要把当前版本“append GPL”回退到上一个版本“add distributed”，就可以使用git reset命令：
+
+$ git reset --hard？ HEAD^
+HEAD is now at ea34578 add distributed
+$ git reset --hard 3628164？ 版本号
+
+Git提供了一个命令git reflog用来记录你的每一次命令：
+$ git reflog
+ea34578 HEAD@{0}: reset: moving to HEAD^
+3628164 HEAD@{1}: commit: append GPL
+	
+	
+
+
