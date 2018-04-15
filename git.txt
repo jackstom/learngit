@@ -4,7 +4,7 @@ $ git init
 $ git add readme.txt
 $ git commit -m "wrote a readme file"
 $ git status  /$ git diff？
-$ git log
+$ git log   推出 q
 commit 9e845ca82219f974f46149db1f27f0f8e9da47d3 (HEAD -> master)
 Author: Qing <coohohye@gmail.com>
 Date:   Sun Apr 15 16:08:07 2018 -0400
@@ -22,6 +22,11 @@ Git提供了一个命令git reflog用来记录你的每一次命令：
 $ git reflog
 ea34578 HEAD@{0}: reset: moving to HEAD^
 3628164 HEAD@{1}: commit: append GPL
+
+用git diff HEAD -- readme.txt命令可以查看工作区和版本库里面最新版本的区别：
+场景1：当你改乱了工作区某个文件的内容，想直接丢弃工作区的修改时，用命令git checkout -- file。？
+
+场景2：当你不但改乱了工作区某个文件的内容，还添加到了暂存区时，想丢弃修改，分两步，第一步用命令git reset HEAD file，就回到了场景1，第二步按场景1操作。
 	
 	
 
