@@ -1,0 +1,13 @@
+2018-02-15 10:34:22.744 INFO: Start to select browser name from properties file
+2018-02-15 10:34:22.746 INFO: Your had select test browser type is: Chrome
+2018-02-15 10:34:22.747 INFO: The test server URL is: http://re.jd.com/
+2018-02-15 10:34:25.477 INFO: Launching Chrome ...
+2018-02-15 10:34:48.430 INFO: Open URL: http://re.jd.com/
+2018-02-15 10:34:49.556 INFO: Maximize browser...
+2018-02-15 10:34:49.559 INFO: Wait for 5 seconds.
+2018-02-15 10:34:49.651 INFO: Clean the value if any in [[ChromeDriver: chrome on XP (eae99bc35e34798a4446fafb7a35b840)] -> id: key].
+2018-02-15 10:34:49.721 INFO: Type value is: iPhone.
+2018-02-15 10:34:49.822 INFO: Element: [[ChromeDriver: chrome on XP (eae99bc35e34798a4446fafb7a35b840)] -> xpath: //*[@id='search']/div/div[2]/button] was clicked.
+2018-02-15 10:35:28.510 INFO: Element: [[ChromeDriver: chrome on XP (eae99bc35e34798a4446fafb7a35b840)] -> xpath: //*[@id='J_goodsList']/ul/li[1]/div/div[1]/a/img] was clicked.
+2018-02-15 10:35:29.535 INFO: 当前窗口数量： 2
+2018-02-15 10:36:28.343 INFO: new page title is 

@@ -1,0 +1,22 @@
+2018-02-15 10:58:36.615 INFO: Start to select browser name from properties file
+2018-02-15 10:58:36.617 INFO: Your had select test browser type is: Chrome
+2018-02-15 10:58:36.617 INFO: The test server URL is: http://re.jd.com/
+2018-02-15 10:58:39.330 INFO: Launching Chrome ...
+2018-02-15 10:59:03.766 INFO: Open URL: http://re.jd.com/
+2018-02-15 10:59:04.912 INFO: Maximize browser...
+2018-02-15 10:59:04.920 INFO: Wait for 5 seconds.
+2018-02-15 10:59:05.036 INFO: Clean the value if any in [[ChromeDriver: chrome on XP (624e47b8a167ca7041c35fbcf43fd05d)] -> id: key].
+2018-02-15 10:59:05.094 INFO: Type value is: iPhone.
+2018-02-15 10:59:05.209 INFO: Element: [[ChromeDriver: chrome on XP (624e47b8a167ca7041c35fbcf43fd05d)] -> xpath: //*[@id='search']/div/div[2]/button] was clicked.
+2018-02-15 10:59:28.811 INFO: Element: [[ChromeDriver: chrome on XP (624e47b8a167ca7041c35fbcf43fd05d)] -> xpath: //*[@id='J_goodsList']/ul/li[1]/div/div[1]/a/img] was clicked.
+2018-02-15 10:59:29.819 INFO: 当前窗口数量： 2
+2018-02-15 10:59:30.926 INFO: new page title is 【AppleiPhone 8 Plus】Apple iPhone 8 Plus (A1864) 64GB 金色 移动联通电信4G手机【行情 报价 价格 评测】-京东
+2018-02-15 10:59:32.050 ERROR: element not visible
+  (Session info: chrome=64.0.3282.167)
+  (Driver info: chromedriver=2.34.522940 (1a76f96f66e3ca7b8e57d503b4dd3bccfba87af1),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'DESKTOP-90FR2K3', ip: '192.168.100.126', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.34.522940 (1a76f96f66e3ca..., userDataDir: C:\Users\cooho\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 64.0.3282.167, webStorageEnabled: true}
+Session ID: 624e47b8a167ca7041c35fbcf43fd05d.
